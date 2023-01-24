@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java-version-updates.iml" filepath="$PROJECT_DIR$/.idea/java-version-updates.iml" />
-      <module fileurl="file://$PROJECT_DIR$/m1-generics/m1-generics.iml" filepath="$PROJECT_DIR$/m1-generics/m1-generics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/m2-enum/m2-enum.iml" filepath="$PROJECT_DIR$/m2-enum/m2-enum.iml" />
     </modules>
   </component>
 </project>

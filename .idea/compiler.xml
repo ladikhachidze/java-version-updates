@@ -7,12 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="m2-enum" />
+        <module name="m3-lambda" />
         <module name="m1-generics" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="m1-generics" target="11" />
-      <module name="m2-enum" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
