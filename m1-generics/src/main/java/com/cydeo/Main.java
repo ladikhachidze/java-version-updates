@@ -12,6 +12,7 @@ public class Main {
         items.add(2);
         items.add(3);
         items.add(4);
+        items.add(4);
 //        items.add("Apple");
 
 
