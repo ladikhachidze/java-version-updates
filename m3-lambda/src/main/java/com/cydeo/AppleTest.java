@@ -25,6 +25,9 @@ public class AppleTest {
         System.out.println(greenApple);
 
 
+        ApplePredicate weightApple = apple -> apple.getWeight()>200;
+        filterApples(inventory,weightApple);
+
     }
 
 
