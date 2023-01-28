@@ -16,15 +16,22 @@ public class OrangeTest {
         orangeList.add(new Orange(444,Color.RED));
 
 
-        OrengeFormatter orengeFormatter = orange -> "An orange of "+ orange.getWeight() +"g";
+        OrangeFormatter orangeFormatter = orange -> "An orange of "+ orange.getWeight() +"g";
 
-        prittyPrintOrenge(orangeList,orengeFormatter);
+        prittyPrintOrenge(orangeList, orangeFormatter);
+
+
+        OrangeFormatter fancyFormatter = orange -> {
+            String ch = orange.getWeight() > 200 ? "Heavy" : "Light";
+            return "A" +ch+" "+orange.getColor()+" orange";
+
+        };
 
 
     }
 
 
-    private static void prittyPrintOrenge(List<Orange> inventory, OrengeFormatter formatter){
+    private static void prittyPrintOrenge(List<Orange> inventory, OrangeFormatter formatter){
 
         for (Orange orange : inventory) {
             String output = formatter.accept(orange);

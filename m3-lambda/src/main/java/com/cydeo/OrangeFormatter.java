@@ -1,7 +1,7 @@
 package com.cydeo;
 
 @FunctionalInterface
-public interface OrengeFormatter {
+public interface OrangeFormatter {
 
     String accept(Orange orange);
 
