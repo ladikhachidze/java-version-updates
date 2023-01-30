@@ -11,7 +11,7 @@ public class SwapValues {
 
     }
 
-    private static <T>void swap(T[] a,int i, int j){
+    private static <T> void swap(T[] a,int i, int j){
 
         T temp = a[i];
         a[i] = a[j];
