@@ -35,6 +35,9 @@ public class Main {
         Consumer<Integer> display = i -> System.out.println(i);
         Consumer<Integer> display2 = System.out::println;
 
+        display.accept(20);
+        display2.accept(30);
+
 
     }
 
