@@ -6,6 +6,8 @@ public class StringMethodDemo {
 
         var str = "Mike \n Ozzy \n Tom \n Emmy";
 
+        str.lines().forEach(System.out::println);
+
 
     }
 }
