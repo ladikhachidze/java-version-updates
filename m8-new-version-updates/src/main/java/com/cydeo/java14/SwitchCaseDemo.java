@@ -29,5 +29,13 @@ public class SwitchCaseDemo {
             default -> System.out.println("Invalid Month"   );
         }
 
+        int day1 = switch (month){
+            case 1,3,5,7,8,10,12 -> 31;
+            case 4,6,9 -> 30;
+            case 2 -> 29;
+            default -> 0;
+        };
+
+
     }
 }
